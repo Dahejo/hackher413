@@ -9,13 +9,13 @@ Have you wandered in a museum not knowing what to see? Do you have only an hour 
 # What it does:
 Like books and movies, we wanted to introduce art to people in an efficient way. While showing the most popular works, this webpage won’t allow people to miss must-see artworks at a museum they will visit. Not only saving time for busy travelers, Must-seum will also help people to find their taste who want to appreciate art with accessible information.
 
-## 1. Find Must-see Artwork.
+### 1. Find Must-see Artwork.
 Users can find art museums by typing the museum name, city’s name, and a zip code. A map will pop up, which enables the user to choose the museums on the map. When you select a museum, the most saved artworks will show up in the order and users are able to access the location of the specific artwork. Through this feature, users can decide what to see in a limited time.
 
-## 2. Personalized Artwork Curation Algorithm (To be developed)
+### 2. Personalized Artwork Curation Algorithm (To be developed)
 Must-seum will recommend the style of painting, painter, and even the museum which the user would enjoy the most based on the algorithm by accumulating data of user’s preference. We can implement this feature by cooperating with art department professors!
 
-## 3. Track Your Taste
+### 3. Track Your Taste
 On the profile page, you can check saved artworks, art museums you’ve been to, and even follow your friends! You can save an artwork that you like by searching it by name of the artwork, artist, or even the characteristics of your artwork! (We will enable this by artwork data labeling)
 
 # How we built it:
