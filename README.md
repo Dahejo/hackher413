@@ -64,8 +64,6 @@ How to use CSV datasets: we changed CSV into JSON data and put them in a Javascr
 - Datasets: [Museum Of Modern Art Collection], [Museums, Aquariums, and Zoos] from Kaggle
 - Design: Figma
 
-# Prizes we're going for:
-- Fujifilm Instax Mini 11 Instant Film Camera, Sky Blue
-- Cash prizes: $1,000 total to first place team; $500 total to second place team; $200 to third place team
-- Apple AirPods 3rd Gen
-- Bose Headphones
+# We won:
+- Best Use of Open Source Data Hack: Cash prize $1,000 total to first place team
+- Best Design Hack: Apple AirPods 3rd Gen
