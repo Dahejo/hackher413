@@ -18,7 +18,9 @@ function ArtCard({title, artist, year, detailurl, image, popularity}) {
             <div className='artcard-container flex '>
                 <div className='flex align-center'>
                     <div onClick={handleClick} className='padding-left-16'>
-                        <i className={isClicked? 'flex justify-center fas fa-heart' : 'flex justify-center far fa-heart'}></i>
+                        <div className="outer">
+                            <i className={isClicked? 'flex justify-center fas fa-heart fullheart' : 'flex justify-center far fa-heart blankheart'}></i>
+                        </div>
                         {isClicked? 
                             <div className='flex justify-center'> {popularity+1} </div>
                         :
@@ -29,8 +31,8 @@ function ArtCard({title, artist, year, detailurl, image, popularity}) {
                     {/* List data */}
                     <div className='padding-left-24'>
                         {/* TODO: data format rearrange */}
-                        <h3 className='text-twolines'>{title}</h3>
-                        <p>{artist} | {year}<br/><br/>
+                        <h3 className='text-twolines artname'>{title}</h3>
+                        <p className="artplus">{artist} | {year}<br/><br/>
                             Floor 5, 502</p>
                     </div>
                 </div>
