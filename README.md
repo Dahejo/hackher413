@@ -34,6 +34,7 @@ We used Figma to visualize the design of the website first and used CSS to decor
 ## HTML/CSS
 ## Javascript
 ## React.js
+## Figma
 
 # Challenges we ran into:
 - Utilizing CSV data from Kaggle to our website
