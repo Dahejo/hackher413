@@ -1,0 +1,12 @@
+
+.artcard-container {
+    width: 520px;
+    height: 170px;
+    border-radius: 8px;
+    border: solid 1px #d3d3d3;
+    justify-content: space-between;
+}
+
+.artcard-thumbnail {
+    border-radius: 8px;
+}
