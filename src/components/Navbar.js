@@ -1,13 +1,16 @@
 import React from "react";
+import "./Navbar.css"
 
 export default function Navbar() {
     return (
-        <div>
+        <div className="realyellow">
             <div className="flex justify-space-between">
-                <h1>Must-seeum</h1>
+
+                <h1 className="name">Must-seum</h1>
                 <div>
-                    <button>Log in</button>
-                    <button>Sign up</button>
+                    <img className="mona" src="resources/images/mona-lisa.png" alt="mona-lisa" href=""></img>
+                    <button className="login">Log in</button>
+
                 </div>
             </div>
         </div>
