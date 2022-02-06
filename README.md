@@ -33,7 +33,7 @@ We used Figma to visualize the design of the website first and used CSS to decor
 # Technologies we used:
 ## HTML/CSS
 ## Javascript
-## React
+## React.js
 
 # Challenges we ran into:
 - Utilizing CSV data from Kaggle to our website
@@ -54,7 +54,7 @@ How to use CSV datasets: we changed CSV into JSON data and put them in a Javascr
 4. Evolve into a virtual museum platform on one’s own taste.
 
 # Built with:
-## We used HTML/CSS, React JS for implementing the prototype and hosted it with Firebase.
+## We used HTML/CSS, React.js for implementing the prototype and hosted it with Firebase.
 - Map: OpenStreetMap
 - Datasets: [Museum Of Modern Art Collection], [Museums, Aquariums, and Zoos] from Kaggle
 - Design: Figma
