@@ -30,13 +30,13 @@ export default function Home() {
             <h1 className="search-text">Search a museum you want to go</h1>
             <hr className="hr-line" />
             <form action="/map" className="flex justify-center form-margin" >
-                <input className="search-input-box" onChange={handleChange} type="text" value={name} placeholder="Zipcode or Museum Name" autocomplete="off" />
+                <input className="search-input-box" list="browsers" onChange={handleChange} type="text" value={name} placeholder="Museum Name / City Name / Zip Code" autocomplete="off" />
                 <button className="search-button" type="submit" onClick={handleClick}>Search</button>
             </form>
         </div>
 
         <div className="flex justify-space-between list-map">
-            <div className="museum-list">
+            <div className={found && "museum-list"}>
                 {Details.map(detail => ( parseInt(buttonName) === detail.ZipCode || buttonName === detail.MuseumName ? 
                     <h4 className="museum-list-padding flex justify-center">{detail.MuseumName}</h4>
                 : null))}
