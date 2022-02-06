@@ -1,0 +1,85 @@
+
+.text-twolines{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+ 
+  -webkit-line-clamp: 2; /* 표시하고자 하는 라인 수 */
+  -webkit-box-orient: vertical;
+}
+
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.padding-left-4 {
+  padding-left: 4px;
+}
+
+.padding-left-8 {
+  padding-left: 8px;
+}
+
+.padding-left-16 {
+  padding-left: 16px;
+}
+
+.padding-left-24 {
+  padding-left: 24px;
+}
+
+.padding-left-180 {
+  padding-left: 180px;
+}
+
+.padding-left-204 {
+  padding-left: 204px;
+}
+
+.padding-right-4 {
+  padding-right: 4px;
+}
+
+.padding-right-8 {
+  padding-right: 8px;
+}
+
+.padding-right-16 {
+  padding-right: 16px;
+}
+
+.padding-top-4 {
+  padding-right: 4px;
+}
+
+.padding-top-24 {
+  padding-top: 24px;
+}
+
+.padding-top-72 {
+  padding-top: 72px;
+}
