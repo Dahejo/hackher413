@@ -10,3 +10,33 @@
 .artcard-thumbnail {
     border-radius: 8px;
 }
+
+.artname {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.artplus {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0;
+}
+
+.fullheart {
+    color:red;
+    padding-top:5px;
+    border: solid 1px;
+    border-color: #FFC400;
+    
+}
+.blankheart {
+    padding-top:5px;
+    border: solid 1px;
+    border-color: #FFC400;
+}
+
+.outer {
+    background-color: #FFF3CC;
+    height: 23px;
+
+}
