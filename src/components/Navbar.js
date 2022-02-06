@@ -10,7 +10,7 @@ export default function Navbar() {
                 <div>
                     <img className="mona" src="resources/images/mona-lisa.png" alt="mona-lisa" href=""></img>
                     <button className="login">Log in</button>
-
+                    <button className="signup">Sign Up</button>
                 </div>
             </div>
         </div>

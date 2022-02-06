@@ -1,12 +1,13 @@
 import React from "react";
 import ArtCard from '../components/ArtCard'
 import { ArtInfos } from '../components/data/ArtInfos'
+import "./Moma.css"
 
 function Moma() {
     return (
     <div>
-        <div className="padding-left-204 padding-top-72">
-            <h1>The Museum of Modern Art</h1>
+        <div className="misek">
+            <h1 className="musName">The Museum of Modern Art</h1>
             <p>Sun-Fri: 10:30 a.m.–5:30 p.m.<br/>
                 Sat: 10:30 a.m. –7:00 p.m.<br/><br/>
                 11 West 53 Street, Manhattan<br/>
