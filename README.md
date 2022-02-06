@@ -19,13 +19,16 @@ Must-seum will recommend the style of painting, painter, and even the museum whi
 On the profile page, you can check saved artworks, art museums you’ve been to, and even follow your friends! You can save an artwork that you like by searching it by name of the artwork, artist, or even the characteristics of your artwork! (We will enable this by artwork data labeling)
 
 # How we built it:
-## 1. Courtesy of the Institute of Museum and Library Services in Kaggle, we were able to utilize the dataset of museums in the United State (https://www.kaggle.com/imls/museum-directorys.)
-## 2. We converted the CSV file to a JSON file and imported it to javascript.
-## 3. By comparing javascript to user input data, we opt out of the inconsistent dataset and build pins of the location of museums on an OpenStreetMap by using their coordinates.
+**Map Feature**
+1. Courtesy of the Institute of Museum and Library Services in Kaggle, we were able to utilize the dataset of museums in the United State (https://www.kaggle.com/imls/museum-directorys.)
+2. We converted the CSV file to a JSON file and imported it to javascript.
+3. By comparing javascript to user input data, we opt out of the inconsistent dataset and build pins of the location of museums on an OpenStreetMap by using their coordinates.
 
-##  We also do the same process for importing artwork data of the museum of modern arts by using data on Kaggle (https://www.kaggle.com/momanyc/museum-collection?select=artworks.csv)
+**Artcard Feature**
+We also do the same process for importing artwork data of the museum of modern arts by using data on Kaggle (https://www.kaggle.com/momanyc/museum-collection?select=artworks.csv)
 
-##  We used Figma to visualize the design of the website first and used CSS to decorate our React-structured website while using CSS (https://www.figma.com/file/3gOcrbxAeH718mfxx4ctL9/museum?node-id=5%3A900)
+**Frontend Design**
+We used Figma to visualize the design of the website first and used CSS to decorate our React-structured website while using CSS (https://www.figma.com/file/3gOcrbxAeH718mfxx4ctL9/museum?node-id=5%3A900)
 
 # Technologies we used:
 ## HTML/CSS
@@ -37,18 +40,18 @@ On the profile page, you can check saved artworks, art museums you’ve been to,
 - Showing several pins based on the user's input on the webpage
 
 # Accomplishments we're proud of:
-## Aesthetic design 😁
-## Using CSV datasets
-## Collaborate coding using GitHub
+- Aesthetic design 😁
+- Using CSV datasets
+- Collaborate coding using GitHub
 
 # What we've learned:
-## How to use CSV datasets: we changed CSV into JSON data and put them in a Javascript file.
+How to use CSV datasets: we changed CSV into JSON data and put them in a Javascript file.
 
 # What's next:
-## 1. Launch an app version to increase accessibility and retention rate.
-## 2. Provide an optimal path for visitors based on their taste and the time they have.
-## 3. Stimulate the art museums industry through partnerships with museums regarding tickets or memberships.
-## 4. Evolve into a virtual museum platform on one’s own taste.
+1. Launch an app version to increase accessibility and retention rate.
+2. Provide an optimal path for visitors based on their taste and the time they have.
+3. Stimulate the art museums industry through partnerships with museums regarding tickets or memberships.
+4. Evolve into a virtual museum platform on one’s own taste.
 
 # Built with:
 ## We used HTML/CSS, React JS for implementing the prototype and hosted it with Firebase.
@@ -57,7 +60,7 @@ On the profile page, you can check saved artworks, art museums you’ve been to,
 - Design: Figma
 
 # Prizes we're going for:
-## Fujifilm Instax Mini 11 Instant Film Camera, Sky Blue
-## Cash prizes: $1,000 total to first place team; $500 total to second place team; $200 to third place team
-## Apple AirPods 3rd Gen
-## Bose Headphones
+- Fujifilm Instax Mini 11 Instant Film Camera, Sky Blue
+- Cash prizes: $1,000 total to first place team; $500 total to second place team; $200 to third place team
+- Apple AirPods 3rd Gen
+- Bose Headphones
