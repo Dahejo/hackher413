@@ -1,6 +1,7 @@
 
 import React from 'react'
 import './ArtCard.css'
+import '../App.css'
 
 function ArtCard({title, artist, year, detailurl, image, popularity}) {
 
