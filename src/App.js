@@ -7,7 +7,7 @@ import Home from "./pages/Home.js";
 import Map from "./pages/Map.js";
 import Moma from "./pages/Moma.js";
 import RealHome from "./pages/RealHome";
-
+import Profile from "./pages/Profile";
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
         <Route path='/search' element={<Home />} />
         <Route path='/map' element={<Map />} />
         <Route path='/moma' element={<Moma />} />
+        <Route path='/profile' element={<Profile />} />
         <Route path='/' element={<RealHome />} />
       </Routes>
     </BrowserRouter>
