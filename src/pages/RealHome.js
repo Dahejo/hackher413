@@ -6,6 +6,9 @@ export default function RealHome() {
         <div className="real">
             <h1 className="title">DON’T MISS MUST-SEE ARTWORKS</h1>
             <h3 className="assist">Must-seum helps you utilize your time at art museums.</h3>
+            <a className="home-search-container" href="/search">
+                <button className="search-btn">Search</button>
+            </a>
         </div>
     )
 };

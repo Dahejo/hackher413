@@ -5,8 +5,9 @@ export default function Navbar() {
     return (
         <div className="realyellow">
             <div className="flex justify-space-between">
-
-                <h1 className="name">Must-seum</h1>
+                <a className="nav-home-btn" href="/">
+                    <h1 className="name">Must-seum</h1>
+                </a>
                 <div>
                 <a href="/profile">
                     <img className="mona" src="resources/images/mona-lisa.png" alt="mona-lisa" href=""></img>

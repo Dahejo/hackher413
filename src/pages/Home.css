@@ -1,3 +1,7 @@
+*:focus {
+    outline: none;
+}
+
 .home-padding {
     padding: 0 150px;
     margin-top: -80px;
@@ -28,7 +32,8 @@
     height: 40px;
     width: 500px;
     margin-right: 20px;
-    border: none;
+    padding-left: 10px;
+    border: 0.5px solid lightgray;
     border-radius: 3px;
     box-shadow: 2px 3px 2px grey;
 
