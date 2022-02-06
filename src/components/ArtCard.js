@@ -15,7 +15,7 @@ function ArtCard({title, artist, year, detailurl, image, popularity}) {
     return (
         // box
         <div className='padding-left-24 padding-top-24'>
-            <div className='artcard-container flex row '>
+            <div className='artcard-container flex '>
                 <div className='flex align-center'>
                     <div onClick={handleClick} className='padding-left-16'>
                         <i className={isClicked? 'flex justify-center fas fa-heart' : 'flex justify-center far fa-heart'}></i>
