@@ -1,8 +1,9 @@
 # Must-seum
 
-## Demo: https://must-seum.web.app/
-### Figma: https://bit.ly/35Mx4ah
+### 🖼 Demo: https://must-seum.web.app/
+
 ### Presentation: https://youtu.be/VVcBL_UcATw
+### Figma: https://bit.ly/35Mx4ah
 
 # Description as a Tweet:
 “Must-seum’ enables people to appreciate art in an easy and accessible way!
