@@ -36,10 +36,10 @@ We also do the same process for importing artwork data of the museum of modern a
 We used Figma to visualize the design of the website first and used CSS to decorate our React-structured website while using CSS (https://www.figma.com/file/3gOcrbxAeH718mfxx4ctL9/museum?node-id=5%3A900)
 
 # Technologies we used:
-### HTML/CSS
-### Javascript
-### React.js
-### Figma
+#### HTML/CSS
+#### Javascript
+#### React.js
+#### Figma
 
 # Challenges we ran into:
 - Utilizing CSV data from Kaggle to our website
